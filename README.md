@@ -5,7 +5,6 @@ This project is a **Machine Learning-based Web Application** built using **Strea
 ## 🚀 Live Demo
 
 👉 [Click here to try the live app](https://csiassignment7-3mwhmzgnnqyr55wv8caelj.streamlit.app/)  
-> _Replace the link with your actual deployed Streamlit app_
 
 ---
 
