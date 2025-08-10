@@ -1,37 +1,52 @@
 # 🏠 Bengaluru House Price Prediction App
 
-This project is a **Machine Learning-based Web Application** built using **Streamlit** that predicts house prices in Bengaluru. The model has been trained using extensive **data cleaning**, **transformation**, and **engineering** techniques to ensure high accuracy and reliability.
+> **AI-powered web app** to predict house prices in Bengaluru 🏡💰
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-ff4b4b?style=for-the-badge&logo=streamlit)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML%20Library-f7931e?style=for-the-badge&logo=scikit-learn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy)
+
+---
 
 ## 🚀 Live Demo
-
-👉 [Click here to try the live app](https://csiassignment7-3mwhmzgnnqyr55wv8caelj.streamlit.app/)  
+👉 [**Try the Live App**](https://csiassignment7-3mwhmzgnnqyr55wv8caelj.streamlit.app/)  
 
 ---
 
 ## 📌 Problem Statement
-
-Buying a house is a major financial decision, and knowing the right price is crucial. This application uses real estate data from Bengaluru to **predict the price of houses per square foot**, based on location, number of BHKs, area, and other features.
-
----
-
-## 🧠 Features of the Project
-
-- 📊 Real-time price prediction for any locality in Bengaluru.
-- 🧹 **Multiple Layers of Data Cleaning**, including:
-  - Handling missing values
-  - Removing outliers
-  - Feature normalization
-- 🏗️ **Advanced Data Engineering**:
-  - Feature selection
-  - Dimensionality reduction
-  - One-hot encoding of categorical variables
-- 🧮 Regression model trained using:
-  - Linear Regression
-  - Lasso Regression
-  - GridSearchCV for hyperparameter tuning
-- 🌐 **Streamlit integration** for easy and interactive UI.
+Buying a home is one of the **biggest financial decisions** in life, and getting the right price matters.  
+This app uses **real estate data from Bengaluru** to predict **house prices per square foot** based on:
+- 📍 Location  
+- 🏘️ Number of BHKs  
+- 📏 Area (sq. ft.)  
+- 🛠️ Other key features  
 
 ---
 
-## 📁 Project Structure
+## ✨ Features
+✅ **Real-time price prediction** for any locality in Bengaluru  
+✅ **Multiple layers of data cleaning**:
+- Handling missing values  
+- Removing outliers  
+- Feature normalization  
+✅ **Advanced data engineering**:
+- Feature selection  
+- Dimensionality reduction  
+- One-hot encoding for categorical variables  
+✅ **Machine learning regression models**:
+- Linear Regression  
+- Lasso Regression  
+- Hyperparameter tuning with GridSearchCV  
+✅ **Beautiful & interactive UI** built with Streamlit  
 
+---
+
+## 🛠 Tech Stack
+- **Python** — Core programming language  
+- **Streamlit** — Interactive web app framework  
+- **Scikit-learn** — Machine learning models & evaluation  
+- **Pandas & NumPy** — Data processing & numerical computation  
