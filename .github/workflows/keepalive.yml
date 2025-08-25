@@ -1,0 +1,13 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+    - cron: "*/50 * * * *"   # every 50 minutes
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl Streamlit app
+        run: curl -s https://csiassignment7-3mwhmzgnnqyr55wv8caelj.streamlit.app/ > /dev/null
