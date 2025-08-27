@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Curl Streamlit app
-        run: curl -s https://csiassignment7-3mwhmzgnnqyr55wv8caelj.streamlit.app/ > /dev/null
+        run: curl -s https://bengaluru-housepriceprediction.streamlit.app/ > /dev/null
